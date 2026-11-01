@@ -187,6 +187,21 @@ The first run downloads and decompiles Minecraft, so it takes a while and needs 
 
 To test in a dev client: `./gradlew runClient`.
 
+## Recommended Extensions
+
+Mob Melody works with YouTube Music, but you can also use third-party browser extensions to enhance your listening experience.
+
+If you're looking for additional features, consider exploring extensions that add extra playback controls or customization options.
+
+For example:
+- **Crossfade:** Smoothly fades out the current song while fading in the next one, creating seamless transitions between tracks.
+- **Playback enhancements:** Additional controls and improvements to the YouTube Music player.
+- **Interface customization:** Themes and visual tweaks to personalize your listening experience.
+
+These extensions are completely optional and are not required for Mob Melody to work.
+
+**Note:** Third-party extensions are not affiliated with Mob Melody. Compatibility may vary, so make sure to review their permissions and only install extensions from sources you trust.
+
 ## Known limitations
 
 - **How muting works.** In 1.12.2 only `MASTER` has a real live volume, and changing the other categories in the game options would get saved to `options.txt`. So the mod cancels new sounds of the muted categories and stops the ones already playing instead. Nothing is written to `options.txt`. The consequence: after the fight, the game's music does not resume mid-track, it comes back on Minecraft's own schedule (it can take a few minutes).
