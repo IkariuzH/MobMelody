@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "mobmusic",
+    "name": "MobMusic",
+    "description": "Plays songs from your own YouTube Music playlist when configured mobs (bosses) appear nearby. Works together with a small browser extension. Client-side only.",
+    "version": "0.9.1",
+    "mcversion": "1.12.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Slyze"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
