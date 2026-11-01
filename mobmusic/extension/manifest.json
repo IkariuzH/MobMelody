@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "MobMusic Bridge",
+  "version": "0.9.1",
+  "description": "Reads the orders of the MobMusic Minecraft mod, plays / pauses songs in YouTube Music, and sends it the song info, lyrics and audio levels to show on screen.",
+  "host_permissions": ["http://127.0.0.1/*", "https://lrclib.net/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
